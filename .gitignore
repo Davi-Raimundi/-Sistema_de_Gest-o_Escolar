@@ -1,0 +1,42 @@
+
+---
+
+### .gitignore
+
+```plaintext
+# Ignorar arquivos de banco de dados locais
+*.sql
+
+# Ignorar arquivos temporários do editor
+*.log
+*.tmp
+
+# Ignorar arquivos de configuração específicos do IDE
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignorar arquivos de compilação
+*.class
+*.jar
+*.war
+*.dll
+*.exe
+*.out
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar diretórios de dependências
+node_modules/
+vendor/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de cache
+*.cache
