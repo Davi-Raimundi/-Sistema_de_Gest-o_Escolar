@@ -1,0 +1,33 @@
+# README - Banco de Dados da Escola
+
+Este repositório contém um modelo de banco de dados para gerenciar informações de uma escola, incluindo alunos, cursos e notas.
+
+## Estrutura do Banco de Dados
+
+### Tabelas
+
+1. **Alunos**
+   - `id_aluno`: Identificador único (chave primária)
+   - `nome`: Nome do aluno
+   - `data_nascimento`: Data de nascimento
+   - `endereco`: Endereço do aluno
+
+2. **Cursos**
+   - `id_curso`: Identificador único (chave primária)
+   - `nome_curso`: Nome do curso
+   - `descricao`: Descrição do curso
+
+3. **Notas**
+   - `id_nota`: Identificador único (chave primária)
+   - `id_aluno`: Referência ao aluno (chave estrangeira)
+   - `id_curso`: Referência ao curso (chave estrangeira)
+   - `nota`: Nota do aluno no curso
+
+## Comandos SQL
+
+### Criação do Banco de Dados
+
+
+DROP DATABASE Escola;
+CREATE DATABASE Escola;
+USE Escola;
